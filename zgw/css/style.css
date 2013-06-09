@@ -73,7 +73,7 @@ body{ padding:0;margin:0;font:normal 12px/180% "宋体"; color:#000;background:#
 }
 
 #topbar a:hover {
-    color: #f00;
+    color: #FF8400;
     text-decoration: underline;
 }
 
@@ -100,6 +100,11 @@ body{ padding:0;margin:0;font:normal 12px/180% "宋体"; color:#000;background:#
 a:link, a:visited {
     color: #000;
     text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: underline;
 }
 
 .fl {
@@ -137,7 +142,7 @@ a:link, a:visited {
 }
 
 .nav_list li a {
-    margin: 0 3px 0 2px;
+    margin: 0 6px 0 3px;
 }
 
 .nav_list li.np {
@@ -146,4 +151,26 @@ a:link, a:visited {
 
 .nav_list li.bg0 {
     background: none;
+}
+
+.sub_nav {
+    height: 30px;
+    line-height: 30px;
+    background: #f6f8f9;
+    text-align: left;
+    font-size: 13px;
+}
+
+.sub_nav a {
+    float: left;
+    display: block;
+    padding: 0 22px;
+    position: relative;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.sub_nav a:hover {
+    color: #FF8400;
+    text-decoration: none;
 }

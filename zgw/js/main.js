@@ -1,0 +1,3 @@
+function addFavorite(){var sURL='http://nj.81.cn';var sTitle=document.title;try{window.external.addFavorite(sURL,sTitle);}catch(e){try{window.sidebar.addPanel(sTitle,sURL,"");}catch(e){alert("加入收藏失败，请使用Ctrl+D进行添加");}}}
+function setHomepage(){var pageURL='http://nj.81.cn';if(document.all){document.body.style.behavior='url(#default#homepage)';document.body.setHomePage(pageURL);}else{try{netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");}catch(e){try{var prefs=Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);prefs.setCharPref('browser.startup.homepage',pageURL);}catch(e){alert("您的浏览器不支持该操作，请使用浏览器菜单手动设置.");}}}}
+

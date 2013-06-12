@@ -137,7 +137,7 @@ a:hover {
 
 .nav_list ul li {
     float: left;
-    padding: 2px 3px 0px 7px;
+    padding: 2px 3px 0px 3px;
     background: url(../img/style_nav_dian.gif) no-repeat right 7px;
 }
 

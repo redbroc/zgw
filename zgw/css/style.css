@@ -137,12 +137,12 @@ a:hover {
 
 .nav_list ul li {
     float: left;
-    padding: 2px 3px 0px 3px;
+    padding: 1px 3px 0px 3px;
     background: url(../img/style_nav_dian.gif) no-repeat right 7px;
 }
 
 .nav_list li a {
-    margin: 0 6px 0 3px;
+    margin: 0 6px 0 2px;
 }
 
 .nav_list li.np {
